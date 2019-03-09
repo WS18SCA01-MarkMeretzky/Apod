@@ -24,8 +24,7 @@ class ViewController: UIViewController {
             fatalError("could not create URL from string \"\(string)\"");
         }
         
-        let task: URLSessionDataTask = URLSession.shared.dataTask(with: url) {
-            (data: Data?, response: URLResponse?, error: Error?) in
+        let task: URLSessionDataTask = URLSession.shared.dataTask(with: url) {(data: Data?, response: URLResponse?, error: Error?) in
             
             if let error: Error = error {
                 print("error = \(error)");
