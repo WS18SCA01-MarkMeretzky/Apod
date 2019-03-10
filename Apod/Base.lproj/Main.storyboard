@@ -33,7 +33,7 @@
                                             <constraint firstAttribute="width" secondItem="ZPW-6V-Rpu" secondAttribute="height" multiplier="1:1" id="HpH-e6-Ljk"/>
                                         </constraints>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iq0-P7-HMo">
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Iq0-P7-HMo">
                                         <rect key="frame" x="0.0" y="379.5" width="343" height="267.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
